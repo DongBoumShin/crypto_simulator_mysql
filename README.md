@@ -22,7 +22,7 @@ The Simulator
 The most important thing to note when using this simulator: It does not take into account unclosed candles.
 
 That is, any 'current'candle on higher timeframes are dropped until the candles are closed.
-For example: if the clock is pointing 01:12, the last candle on the 5min is 01:05~10, 15min: 00:45~01:00, 30min: 00:30~01:00, 60min: 00:00~01:00.
+For example: if the clock is pointing 01:12, the last candle on the 5min is 01:05-10, 15min: 00:45-01:00, 30min: 00:30-01:00, 60min: 00:00-01:00.
 As such, 60min data isn't updated until the clock hits 00, when the hourly candle is finally closed.
 
 Because there was no need for me to package it into a standalone program, variables are mostly in the source code directly.
