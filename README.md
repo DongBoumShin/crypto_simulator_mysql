@@ -16,6 +16,9 @@ The simulator fetches candlestick data, i.e. datetime, open, high, low, close, v
 
 The simulator is slow, as it fetches row by row from the db, but the slow mechanism is a side effect resulting from avoiding any look-ahead bias that might form.
 
+How To Use
+
+On your ide, run simulator.py with your variables. Or create a simulator object and call .simulate().
 
 The Simulator
 
