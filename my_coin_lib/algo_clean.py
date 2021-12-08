@@ -25,6 +25,7 @@ class AlgorithmTrailStop(Algorithm):
         self.atr_var = None
 
     def buysell(self, algorithmres, warningflag, data05, data15, data30, data60, hasbool):
+        # expects to return 1, 2, -1, -2, 0
         self.data05 = data05
         self.data15 = data15
         self.data30 = data30
